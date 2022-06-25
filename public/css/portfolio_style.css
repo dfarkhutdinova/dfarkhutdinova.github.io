@@ -1,0 +1,115 @@
+body{
+    background-image: url("https://oir.mobi/uploads/posts/2021-04/1618357315_22-oir_mobi-p-vetochka-lavandi-tsveti-krasivo-foto-23.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    margin-bottom: -10px;
+    margin-top: 200px;
+    font-size: 80px;
+}
+
+.my-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 22px;
+    color: #A9A9A9;
+    margin-bottom: -15px;
+    font-style: italic;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 19 px;
+    color: #A9A9A9;
+    font-style: italic;
+}
+
+p {
+    font-size: larger;
+    color: #7B68EE;
+    font-style: bold;
+    margin-left: 10px;
+    margin-top: 290px;
+    margin-bottom: -2px;
+}
+
+ul.hr {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+}
+
+ul.hr li {
+    display: inline-flex;
+}
+
+.inst_button button {
+    width: 64px;
+    height: 64px;
+    border-radius: 15px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.mail_button button {
+    width: 64px;
+    height: 64px;
+    border-radius: 15px;
+    background-image: url("https://toppng.com/uploads/preview/font-email-comments-email-icon-square-11563265451o3oy61mf1b.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dropbtn {
+    background-color: #7B68EE;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E6E6FA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .dropdown-content a:hover {background-color: #9D8EF7;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #32229B;}

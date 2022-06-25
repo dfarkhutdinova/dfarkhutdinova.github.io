@@ -1,0 +1,126 @@
+h1 {
+    color: #7B68EE;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #32229B;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.dropbtn {
+    background-color: #7B68EE;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E6E6FA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 16px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #9D8EF7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #32229B;
+}
+
+#container {
+    display: grid;
+    grid: repeat(2, 300px) / auto-flow 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+#container>div {
+    background-color: #E6E6FA;
+    width: 350px;
+    height: 230px;
+}
+#P1{
+    color: #7B68EE;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#P2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+#P3{
+    color: #7B68EE;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#P4{
+    color: #7B68EE;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#P5{
+    color: #7B68EE;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#P6{
+    color: #7B68EE;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#P7{
+    color: #7B68EE;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
